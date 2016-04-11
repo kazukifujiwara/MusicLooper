@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D461E1BF1CBBAC9F00325162 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D461E1BE1CBBAC9F00325162 /* AppDelegate.swift */; };
+		D461E1C11CBBAC9F00325162 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D461E1C01CBBAC9F00325162 /* ViewController.swift */; };
+		D461E1C41CBBAC9F00325162 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D461E1C21CBBAC9F00325162 /* Main.storyboard */; };
+		D461E1C61CBBAC9F00325162 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D461E1C51CBBAC9F00325162 /* Assets.xcassets */; };
+		D461E1C91CBBAC9F00325162 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D461E1C71CBBAC9F00325162 /* LaunchScreen.storyboard */; };
+		D461E1D41CBBAC9F00325162 /* MusicLooperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D461E1D31CBBAC9F00325162 /* MusicLooperTests.swift */; };
+		D461E1DF1CBBAC9F00325162 /* MusicLooperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D461E1DE1CBBAC9F00325162 /* MusicLooperUITests.swift */; };
+		D461E1EF1CBBB1C500325162 /* arrow_green.png in Resources */ = {isa = PBXBuildFile; fileRef = D461E1EC1CBBB1C500325162 /* arrow_green.png */; };
+		D461E1F01CBBB1C500325162 /* arrow_red.png in Resources */ = {isa = PBXBuildFile; fileRef = D461E1ED1CBBB1C500325162 /* arrow_red.png */; };
+		D461E1F11CBBB1C500325162 /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = D461E1EE1CBBB1C500325162 /* player.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D461E1D01CBBAC9F00325162 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D461E1B31CBBAC9F00325162 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D461E1BA1CBBAC9F00325162;
+			remoteInfo = MusicLooper;
+		};
+		D461E1DB1CBBAC9F00325162 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D461E1B31CBBAC9F00325162 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D461E1BA1CBBAC9F00325162;
+			remoteInfo = MusicLooper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D461E1BB1CBBAC9F00325162 /* MusicLooper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicLooper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D461E1BE1CBBAC9F00325162 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D461E1C01CBBAC9F00325162 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D461E1C31CBBAC9F00325162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D461E1C51CBBAC9F00325162 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D461E1C81CBBAC9F00325162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D461E1CA1CBBAC9F00325162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D461E1CF1CBBAC9F00325162 /* MusicLooperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicLooperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D461E1D31CBBAC9F00325162 /* MusicLooperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicLooperTests.swift; sourceTree = "<group>"; };
+		D461E1D51CBBAC9F00325162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D461E1DA1CBBAC9F00325162 /* MusicLooperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicLooperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D461E1DE1CBBAC9F00325162 /* MusicLooperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicLooperUITests.swift; sourceTree = "<group>"; };
+		D461E1E01CBBAC9F00325162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D461E1EC1CBBB1C500325162 /* arrow_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_green.png; sourceTree = "<group>"; };
+		D461E1ED1CBBB1C500325162 /* arrow_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_red.png; sourceTree = "<group>"; };
+		D461E1EE1CBBB1C500325162 /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D461E1B81CBBAC9F00325162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D461E1CC1CBBAC9F00325162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D461E1D71CBBAC9F00325162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D461E1B21CBBAC9F00325162 = {
+			isa = PBXGroup;
+			children = (
+				D461E1BD1CBBAC9F00325162 /* MusicLooper */,
+				D461E1D21CBBAC9F00325162 /* MusicLooperTests */,
+				D461E1DD1CBBAC9F00325162 /* MusicLooperUITests */,
+				D461E1BC1CBBAC9F00325162 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D461E1BC1CBBAC9F00325162 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D461E1BB1CBBAC9F00325162 /* MusicLooper.app */,
+				D461E1CF1CBBAC9F00325162 /* MusicLooperTests.xctest */,
+				D461E1DA1CBBAC9F00325162 /* MusicLooperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D461E1BD1CBBAC9F00325162 /* MusicLooper */ = {
+			isa = PBXGroup;
+			children = (
+				D461E1BE1CBBAC9F00325162 /* AppDelegate.swift */,
+				D461E1C01CBBAC9F00325162 /* ViewController.swift */,
+				D461E1C21CBBAC9F00325162 /* Main.storyboard */,
+				D461E1C51CBBAC9F00325162 /* Assets.xcassets */,
+				D461E1C71CBBAC9F00325162 /* LaunchScreen.storyboard */,
+				D461E1CA1CBBAC9F00325162 /* Info.plist */,
+				D461E1EC1CBBB1C500325162 /* arrow_green.png */,
+				D461E1ED1CBBB1C500325162 /* arrow_red.png */,
+				D461E1EE1CBBB1C500325162 /* player.png */,
+			);
+			path = MusicLooper;
+			sourceTree = "<group>";
+		};
+		D461E1D21CBBAC9F00325162 /* MusicLooperTests */ = {
+			isa = PBXGroup;
+			children = (
+				D461E1D31CBBAC9F00325162 /* MusicLooperTests.swift */,
+				D461E1D51CBBAC9F00325162 /* Info.plist */,
+			);
+			path = MusicLooperTests;
+			sourceTree = "<group>";
+		};
+		D461E1DD1CBBAC9F00325162 /* MusicLooperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D461E1DE1CBBAC9F00325162 /* MusicLooperUITests.swift */,
+				D461E1E01CBBAC9F00325162 /* Info.plist */,
+			);
+			path = MusicLooperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D461E1BA1CBBAC9F00325162 /* MusicLooper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D461E1E31CBBAC9F00325162 /* Build configuration list for PBXNativeTarget "MusicLooper" */;
+			buildPhases = (
+				D461E1B71CBBAC9F00325162 /* Sources */,
+				D461E1B81CBBAC9F00325162 /* Frameworks */,
+				D461E1B91CBBAC9F00325162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicLooper;
+			productName = MusicLooper;
+			productReference = D461E1BB1CBBAC9F00325162 /* MusicLooper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D461E1CE1CBBAC9F00325162 /* MusicLooperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D461E1E61CBBAC9F00325162 /* Build configuration list for PBXNativeTarget "MusicLooperTests" */;
+			buildPhases = (
+				D461E1CB1CBBAC9F00325162 /* Sources */,
+				D461E1CC1CBBAC9F00325162 /* Frameworks */,
+				D461E1CD1CBBAC9F00325162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D461E1D11CBBAC9F00325162 /* PBXTargetDependency */,
+			);
+			name = MusicLooperTests;
+			productName = MusicLooperTests;
+			productReference = D461E1CF1CBBAC9F00325162 /* MusicLooperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D461E1D91CBBAC9F00325162 /* MusicLooperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D461E1E91CBBAC9F00325162 /* Build configuration list for PBXNativeTarget "MusicLooperUITests" */;
+			buildPhases = (
+				D461E1D61CBBAC9F00325162 /* Sources */,
+				D461E1D71CBBAC9F00325162 /* Frameworks */,
+				D461E1D81CBBAC9F00325162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D461E1DC1CBBAC9F00325162 /* PBXTargetDependency */,
+			);
+			name = MusicLooperUITests;
+			productName = MusicLooperUITests;
+			productReference = D461E1DA1CBBAC9F00325162 /* MusicLooperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D461E1B31CBBAC9F00325162 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = mycompany;
+				TargetAttributes = {
+					D461E1BA1CBBAC9F00325162 = {
+						CreatedOnToolsVersion = 7.2.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					D461E1CE1CBBAC9F00325162 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = D461E1BA1CBBAC9F00325162;
+					};
+					D461E1D91CBBAC9F00325162 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = D461E1BA1CBBAC9F00325162;
+					};
+				};
+			};
+			buildConfigurationList = D461E1B61CBBAC9F00325162 /* Build configuration list for PBXProject "MusicLooper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D461E1B21CBBAC9F00325162;
+			productRefGroup = D461E1BC1CBBAC9F00325162 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D461E1BA1CBBAC9F00325162 /* MusicLooper */,
+				D461E1CE1CBBAC9F00325162 /* MusicLooperTests */,
+				D461E1D91CBBAC9F00325162 /* MusicLooperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D461E1B91CBBAC9F00325162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D461E1C91CBBAC9F00325162 /* LaunchScreen.storyboard in Resources */,
+				D461E1EF1CBBB1C500325162 /* arrow_green.png in Resources */,
+				D461E1F11CBBB1C500325162 /* player.png in Resources */,
+				D461E1C61CBBAC9F00325162 /* Assets.xcassets in Resources */,
+				D461E1C41CBBAC9F00325162 /* Main.storyboard in Resources */,
+				D461E1F01CBBB1C500325162 /* arrow_red.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D461E1CD1CBBAC9F00325162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D461E1D81CBBAC9F00325162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D461E1B71CBBAC9F00325162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D461E1C11CBBAC9F00325162 /* ViewController.swift in Sources */,
+				D461E1BF1CBBAC9F00325162 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D461E1CB1CBBAC9F00325162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D461E1D41CBBAC9F00325162 /* MusicLooperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D461E1D61CBBAC9F00325162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D461E1DF1CBBAC9F00325162 /* MusicLooperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D461E1D11CBBAC9F00325162 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D461E1BA1CBBAC9F00325162 /* MusicLooper */;
+			targetProxy = D461E1D01CBBAC9F00325162 /* PBXContainerItemProxy */;
+		};
+		D461E1DC1CBBAC9F00325162 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D461E1BA1CBBAC9F00325162 /* MusicLooper */;
+			targetProxy = D461E1DB1CBBAC9F00325162 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D461E1C21CBBAC9F00325162 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D461E1C31CBBAC9F00325162 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D461E1C71CBBAC9F00325162 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D461E1C81CBBAC9F00325162 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D461E1E11CBBAC9F00325162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D461E1E21CBBAC9F00325162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D461E1E41CBBAC9F00325162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MusicLooper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Q5Z22TS29R.test.kzkfjwr.MusicLooper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D461E1E51CBBAC9F00325162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MusicLooper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Q5Z22TS29R.test.kzkfjwr.MusicLooper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D461E1E71CBBAC9F00325162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MusicLooperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Q5Z22TS29R.test.kzkfjwr.MusicLooperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicLooper.app/MusicLooper";
+			};
+			name = Debug;
+		};
+		D461E1E81CBBAC9F00325162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MusicLooperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Q5Z22TS29R.test.kzkfjwr.MusicLooperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicLooper.app/MusicLooper";
+			};
+			name = Release;
+		};
+		D461E1EA1CBBAC9F00325162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MusicLooperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Q5Z22TS29R.test.kzkfjwr.MusicLooperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MusicLooper;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D461E1EB1CBBAC9F00325162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MusicLooperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Q5Z22TS29R.test.kzkfjwr.MusicLooperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MusicLooper;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D461E1B61CBBAC9F00325162 /* Build configuration list for PBXProject "MusicLooper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D461E1E11CBBAC9F00325162 /* Debug */,
+				D461E1E21CBBAC9F00325162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D461E1E31CBBAC9F00325162 /* Build configuration list for PBXNativeTarget "MusicLooper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D461E1E41CBBAC9F00325162 /* Debug */,
+				D461E1E51CBBAC9F00325162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D461E1E61CBBAC9F00325162 /* Build configuration list for PBXNativeTarget "MusicLooperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D461E1E71CBBAC9F00325162 /* Debug */,
+				D461E1E81CBBAC9F00325162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D461E1E91CBBAC9F00325162 /* Build configuration list for PBXNativeTarget "MusicLooperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D461E1EA1CBBAC9F00325162 /* Debug */,
+				D461E1EB1CBBAC9F00325162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D461E1B31CBBAC9F00325162 /* Project object */;
+}
