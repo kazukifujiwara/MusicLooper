@@ -1,7 +1,12 @@
-# MusicLooper
+# MusicLooper (Under construction)
 
 ## Overview
 Music Player for iOS. You can change the speed and repeat a specific part of the song.
+
+## Screenshot
+
+<img src="./screenshot.png", width="300">
+
 
 ## Description
 
